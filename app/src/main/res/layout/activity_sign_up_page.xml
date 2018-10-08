@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:layout_margin="20dp"
+    tools:context=".SignUpPage">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Instage Signup Page"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:textColorHint="#000"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:inputType="textCapCharacters"
+        android:maxLines="1"
+        android:layout_gravity="center"
+        android:textCursorDrawable="@color/textcolor"
+        android:cursorVisible="true"
+        android:layout_marginTop="40dp"
+        android:singleLine="true" />
+    <EditText
+        android:textColorHint="#000"
+        android:id="@+id/MembershipNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:imeActionId="6"
+        android:textCursorDrawable="@color/textcolor"
+        android:cursorVisible="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditText
+        android:textColorHint="#000"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:textCursorDrawable="@color/textcolor"
+        android:cursorVisible="true"
+        android:imeActionId="6"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/email_sign_up_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/btnTextColor"
+        android:text="Signup"
+        android:textSize="20dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/Signintxt"
+        android:layout_width="wrap_content"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Already have a Account? Signin"/>
+</LinearLayout>

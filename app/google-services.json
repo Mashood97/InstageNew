@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "862358108929",
+    "firebase_url": "https://instagenew.firebaseio.com",
+    "project_id": "instagenew",
+    "storage_bucket": "instagenew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862358108929:android:d55133f176c878d6",
+        "android_client_info": {
+          "package_name": "com.example.masho.instagenew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862358108929-ghahotq66gmun8rbqnb1cqg8no75gm6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc8wVO663SktF3Mlo5ogLtAC0r7zby0hE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
